@@ -1,0 +1,64 @@
+.c_card{
+  margin: 10px 12px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 16px 10px 16px 16px;
+
+  :global{
+    .tit{
+      line-height: 20px;
+      font-size: 13px;
+      color: #323232;
+    }
+    .member{
+      line-height: 26px;
+      font-size: 12px;
+    }
+    .list_wrap{
+      position: relative;
+      padding-top: 6px;
+      .list{
+        margin-top: 6px;
+        line-height: 18px;
+        font-size: 12px;
+        .list_tit{
+
+          color: #323232;
+        }
+        .list_text{
+          color: #999;
+
+        }
+      }
+    }
+    .btn{
+      position: relative;
+      margin-top: 12px;
+      height: 30px;
+      line-height: 46px;
+      border-top: 1PX solid #f2f2f2;
+      color: #707070;
+      font-size: 12px;
+    }
+
+
+  }
+}
+.tit_icon{
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #ff0000;
+  vertical-align: 2px;
+  margin-right: 4px;
+}
+.processed{
+  background-image: url("../../../../assets/images/icon_processed_red.png");
+  width: 100px;
+  height: 100px;
+  background-size: 100px;
+  position: absolute;
+  right: 0px;
+  top: -20px;
+}

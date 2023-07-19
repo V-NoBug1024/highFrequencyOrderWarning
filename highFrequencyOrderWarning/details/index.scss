@@ -1,0 +1,52 @@
+.p_hfow_d{
+
+}
+
+.operat{
+  margin: 10px 12px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 16px 10px 16px 16px;
+}
+.btn_wrap{
+  text-align: left;
+  width: 320px;
+  margin: 0 auto;
+}
+.btn{
+  display: inline-block;
+  width: 100px;
+  height: 32px;
+  line-height: 32px;
+  background-color: #f8f8f8;
+  color: #323232;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 16px;
+  margin: 30px;
+}
+.checked{
+  background-color: #f2f9ff;
+}
+.ps{
+  border-top: 1PX solid #f2f2f2;
+  :global{
+    .stock-textarea{
+      background-color: #f6f6f6;
+      height: 100px;
+      border-radius: 6px;
+    }
+    textarea{
+      line-height: 16px;
+      font-size: 12px;
+    }
+    textarea:disabled{
+      background-color: #f6f6f6;
+    }
+  }
+}
+.ps_tit{
+  line-height: 50px;
+  color: #323232;
+  font-size: 13px;
+}
